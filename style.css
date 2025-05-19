@@ -123,3 +123,30 @@ p, h1, h2, h3, h4, h5, h6 {
 header {
     box-shadow: 2px 2px 2px lightgray;
 }
+
+
+.sidebar {
+    color: white;
+    background-color: blue;
+}
+
+.side-row {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+.side-row span {
+    align-self: center;
+    justify-self: center;
+    margin-top: 8px;
+}
+
+.side-row .side-nav {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.sidebar .top, .sidebar .middle {
+    margin-bottom: 25px;
+}
