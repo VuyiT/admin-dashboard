@@ -246,3 +246,15 @@ section {
     grid-template-rows: 0.5fr, 1fr;
     gap: 20px;
 }
+aside {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    gap: 30px;
+}
+
+main {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 20px;
+}
