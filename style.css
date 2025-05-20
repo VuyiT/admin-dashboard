@@ -157,7 +157,6 @@ section {
 
 .cards-heading {
     font-size: 1rem;
-    padding: 20px;
 }
 
 .cards {
@@ -165,9 +164,6 @@ section {
     border-left: 5px solid orange;
     border-radius: 8px;
     padding: 20px 30px 50px 20px;
-    width: 350px;
-    height: 200px;
-    margin: 20px;
 }
 
 .card-content {
