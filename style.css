@@ -177,6 +177,9 @@ section {
     justify-content: flex-end;
     gap: 20px;
 }
+.trending h5, .announcements h5 {
+    font-size: 1rem;
+}
 
 .trending-bar {
     display: grid;
