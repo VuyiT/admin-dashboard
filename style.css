@@ -218,6 +218,10 @@ section {
     padding: 30px 30px 10px 20px;
 }
 
+.announce-rows h5 {
+    font-size: 0.8rem;
+}
+
 .announce-content {
     font-size: 0.7rem;
     color: gray;
