@@ -221,3 +221,16 @@ section {
     font-size: 0.7rem;
     color: gray;
 }
+
+/* Grid Layout */
+
+.card-container {
+    display: grid;
+    grid-template-rows: 0.5fr, repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card-container h5 {
+    grid-area: 1 / 1 / 2 / 3;
+}
