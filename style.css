@@ -213,8 +213,9 @@ section {
 
 .announce-rows {
     background-color: white;
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px 30px 10px 20px;
 }
 
 .announce-content {
