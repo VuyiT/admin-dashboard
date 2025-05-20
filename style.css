@@ -187,6 +187,8 @@ section {
     grid-template-rows: 1fr 1fr;
     column-gap: 10px;
     background-color: white;
+    border-radius: 8px;
+    padding: 20px 30px 12px 0px;
 }
 
 .trend-avatar {
@@ -213,7 +215,6 @@ section {
 
 .announce-rows {
     background-color: white;
-    background-color: white;
     border-radius: 8px;
     padding: 30px 30px 10px 20px;
 }
@@ -238,4 +239,10 @@ section {
 
 .card-container h5 {
     grid-area: 1 / 1 / 2 / 3;
+}
+
+.announcements, .trending {
+    display: grid;
+    grid-template-rows: 0.5fr, 1fr;
+    gap: 20px;
 }
