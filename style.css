@@ -210,14 +210,11 @@ section {
     grid-area: 2 / 2 / 3;
     align-self: self-end;
 }
-.announcements {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-}
 
 .announce-rows {
     background-color: white;
-    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .announce-content {
